@@ -1,7 +1,5 @@
 
 
-<link rel = "stylesheet" href = "/page.css" type = "text/css">
-
 <script lang="ts">
 	// components
 	import Hero from '$lib/components/image/Hero.svelte';
@@ -19,24 +17,25 @@
 </script>
 
 <main>
+	<p style ="font-family: 'Prompt', sans-serif; text-align: center; font-size: 2em; font-weight: 700; margin-bottom: -10px;">SAVING LILY AND STONE </p>
+	
 	<Hero
 		image={{ src: hero5, alt: 'Saving Lilley and Stone' }}
 		header="Saving Lilley and Stone"
 	/>
-<br><br>
-	<div class = "textimage">
+
+<div class = "textimage">
 
 		<h1 style="margin-bottom: 1rem">WE DEEPLY CARE ABOUT OUR TOWN</h1><br>
 		<p> Our town is rich in history, buildings, green spaces, educational and cultural facilities </p>
 		<br>
-		<p>We want to maintain the day-to-day quality of life for our residents and build a future legacy for our children and the next generation</p>
-		<br>
-		<p>The Lilley and Stone site is central to this and thus we feel moved to act</p>
+		<p>We want to maintain the day-to-day quality of life for our residents and build a future legacy for our children and the next generation. <br><br>The Lilley and Stone site is central to this and thus we feel moved to act</p>
 
-	</div>
+
+</div>
 <br><br><br><br><br><br>
 	<h1>OUR OBJECTIVES</h1>
-	<List title = "_"
+	<List title = "✓"
 		cardDetails={[
 			{
 				title: 'Halt progress',
@@ -72,13 +71,30 @@
 <style lang="scss">
 
 	@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@500&display=swap');
+	.textimage {
+		margin-top: 50%;
+		margin-bottom: -2%;
+		@media only screen and (min-width: 768px) {
+			p {
+			margin-left: 10%;
+			margin-right: 10%;
+			}
+		}
+
+		text-align: center;
+	}
+	@media only screen and (min-width: 768px) {
+  		.textimage {
+    		margin-top: 20%;
+		
+		
+  		}
+	}
 
 	.s-GopaBODuPFzn {
 		font-family: 'Prompt', sans-serif;
-
 	}
-
-	.s-y_bCXRrkrYfP {
+	main {
     background-color: #ebeefb;
 }
 	a {
@@ -89,6 +105,12 @@
 		font-family: 'Prompt', sans-serif;
 		font-size: 40px;
 		text-align: center;
+		margin: 20px;
+	}
+	p {
+		margin-left: 20px;
+		margin-right: 20px;
+		justify-content: center;
 	}
 	ul {
 		list-style-position: inside;

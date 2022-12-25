@@ -105,7 +105,10 @@
 
 			a {
 				font-family: 'Island Moments', cursive;
-				text-decoration: none;
+				align-items: center;
+				display: none;
+				margin-left: 40%;
+			
 				font-size: 2em;
 				font-weight: 700;
 				color: black;
@@ -159,6 +162,7 @@
 			padding: 15px 15px;
 			margin-right: 10px;
 			display: inline-block;
+			margin-left: 85%;
 			cursor: pointer;
 			transition-property: opacity, filter;
 			transition-duration: 0.15s;

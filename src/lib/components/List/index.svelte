@@ -18,11 +18,11 @@
 		},
 		{
 			title: 'TRAFFIC',
-			body: 'the number of additional cars resulting from 80 plus new homes would cause chaos in the residential streets surrounding Harewood Avenue and London Road.'
+			body: 'The number of additional cars resulting from 80 plus new homes would cause chaos in the residential streets surrounding Harewood Avenue and London Road.'
 		},
 		{
 			title: 'COMMUNITY IDEAS AND INPUT',
-			body: 'it was evident from the meeting last week that there is a lot of talent locally. We heard from architects amongst others who had plenty of ideas about how the site might be best used. No one has consulted with the beneficiaries of the trust who are young people in Newark and Balderton. We would like to see much more use of local people and talent.'
+			body: 'It was evident from the meeting last week that there is a lot of talent locally. We heard from architects amongst others who had plenty of ideas about how the site might be best used. No one has consulted with the beneficiaries of the trust who are young people in Newark and Balderton. We would like to see much more use of local people and talent.'
 		}
 	];
 </script>

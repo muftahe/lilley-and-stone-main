@@ -75,6 +75,11 @@
 
 <style lang="scss">
 
+	section {
+    	background-color: #ebeefb;
+}
+
+	
 	@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@500&display=swap');
 	ul {
 		list-style-position: inside;

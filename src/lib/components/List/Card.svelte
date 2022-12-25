@@ -20,6 +20,9 @@
 
 <style lang="scss">
 	@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@500&display=swap');
+
+
+
 	main {
 		display: flex;
 		align-items: center;
@@ -28,8 +31,17 @@
 		background-color: white;
 		border: 2px solid black;
 		border-radius: 20px;
-		margin-left: 15%;
-		margin-right: 15%;
+		margin-left: 3%;
+		margin-right: 3%;
+		@media only screen and (min-width: 768px) { 
+			margin-right: 10%;
+			margin-left: 10%;
+		}
+
+	
+
+
+	
 
 		
 		
@@ -62,15 +74,21 @@
 			font-family: 'Prompt', sans-serif;
 			font-weight: 800;
 			font-size: 26px;
+			text-align: center;
 		}
 
 		p {
-			
+			font-size: 15px;
 			text-align: center;
-			max-width: 70%;
+			max-width: 80%;
 			line-height: 1.6;
 			margin-top: 10px;
 			margin-bottom: 50px;
 		}
+		@media only screen and (min-width: 768px) {
+			p {
+				font-size: 18px;
+			}
 	}
+}
 </style>
