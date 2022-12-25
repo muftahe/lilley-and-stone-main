@@ -1,6 +1,6 @@
 
 
-<link rel = "stylesheet" href = "/src/routes/page.css">
+<link rel = "stylesheet" href = "/lilyandstone2/src/routes/page.css">
 
 <script lang="ts">
 	// components
@@ -77,6 +77,10 @@
 		font-family: 'Prompt', sans-serif;
 
 	}
+
+	.s-y_bCXRrkrYfP {
+    background-color: #ebeefb;
+}
 	a {
 		margin-left: 50%;
 		margin-right: 50%;
