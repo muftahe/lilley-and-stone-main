@@ -24,7 +24,7 @@
 		header="Saving Lilley and Stone"
 	/>
 <br><br>
-<!--	<div class = "textimage">
+	<div class = "textimage">
 
 		<h1 style="margin-bottom: 1rem">WE DEEPLY CARE ABOUT OUR TOWN</h1><br>
 		<p> Our town is rich in history, buildings, green spaces, educational and cultural facilities </p>
@@ -33,7 +33,7 @@
 		<br>
 		<p>The Lilley and Stone site is central to this and thus we feel moved to act</p>
 
-	</div>-->
+	</div>
 <br><br><br><br><br><br>
 	<h1>OUR OBJECTIVES</h1>
 	<List title = "_"
