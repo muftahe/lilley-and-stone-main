@@ -1,6 +1,6 @@
 
 
-<link rel = "stylesheet" href = "/src/routes/page.css">
+<link rel = "stylesheet" href = "/page.css" type = "text/css">
 
 <script lang="ts">
 	// components
