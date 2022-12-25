@@ -1,6 +1,6 @@
 
 
-<link rel = "stylesheet" href = "/lilyandstone2/css/page.css">
+<link rel = "stylesheet" href = "/page.css" type = "text/css">
 
 <script lang="ts">
 	// components
