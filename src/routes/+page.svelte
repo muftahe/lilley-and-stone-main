@@ -84,6 +84,7 @@
 	h1 {
 		font-family: 'Prompt', sans-serif;
 		font-size: 40px;
+		text-align: center;
 	}
 	ul {
 		list-style-position: inside;
