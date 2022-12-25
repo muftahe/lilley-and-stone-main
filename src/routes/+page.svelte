@@ -36,7 +36,7 @@
 	</div>
 <br><br><br><br><br><br>
 	<h1>OUR OBJECTIVES</h1>
-	<List title = "__"
+	<List title = "_"
 		cardDetails={[
 			{
 				title: 'Halt progress',
