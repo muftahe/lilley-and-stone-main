@@ -78,7 +78,7 @@
 
 	}
 
-	.s-y_bCXRrkrYfP {
+	main {
     background-color: #ebeefb;
 }
 	a {
