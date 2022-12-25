@@ -72,7 +72,7 @@
 
 	@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@500&display=swap');
 	.textimage {
-		margin-top: 50%;
+		margin-top: 60%;
 		margin-bottom: -2%;
 		@media only screen and (min-width: 768px) {
 			p {
