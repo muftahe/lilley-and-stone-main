@@ -1,10 +1,5 @@
 
 
-<<<<<<< HEAD
-=======
-<link rel = "stylesheet" href = "src/routes/page.css">
-
->>>>>>> 96eadfecb8e90d7af0936d74741fab872413f27f
 <script lang="ts">
 	// components
 	import Hero from '$lib/components/image/Hero.svelte';
@@ -99,10 +94,6 @@
 	.s-GopaBODuPFzn {
 		font-family: 'Prompt', sans-serif;
 	}
-<<<<<<< HEAD
-=======
-
->>>>>>> 96eadfecb8e90d7af0936d74741fab872413f27f
 	main {
     background-color: #ebeefb;
 }
