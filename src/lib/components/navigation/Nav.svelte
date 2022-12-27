@@ -48,7 +48,7 @@
 			</span>
 		</button>
 	<!--<p style = "text-align: center; margin-top: -2.5%;">SAVING LILY AND STONE</p>-->
-	<img src = "../../../../src/lib/assets/tennis/logo.png" style = "height: 80px; display: block; margin-left: auto; margin-right: auto; margin-top: -2%;" >
+	<img src = "lilyandstone2/src/lib/assets/tennis/logo.png" style = "height: 80px; display: block; margin-left: auto; margin-right: auto; margin-top: -2%;" >
 
 	</div>
 
