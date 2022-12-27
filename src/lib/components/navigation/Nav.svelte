@@ -48,7 +48,7 @@
 			</span>
 		</button>
 	<!--<p style = "text-align: center; margin-top: -2.5%;">SAVING LILY AND STONE</p>-->
-	<img src = "https://github.com/muftahe/lilyandstone2/blob/master/src/lib/components/navigation/image4/logo.png" style = "height: 80px; display: block; margin-left: auto; margin-right: auto; margin-top: -2%;" >
+	<img src = "src/lib/components/navigation/image4/logo.png" style = "height: 80px; display: block; margin-left: auto; margin-right: auto; margin-top: -2%;" >
 
 	</div>
 
