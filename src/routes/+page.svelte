@@ -95,7 +95,7 @@
 	@media only screen and (min-width: 768px) {
   		.textimage {
     		margin-top: 20%;
-			background-color: #ebeefb;
+			background-color: #fff;
 		
 		
   		}
@@ -105,7 +105,7 @@
 		font-family: 'Prompt', sans-serif;
 	}
 	main {
-    background-color: #ebeefb;
+    background-color: #fff;
 }
 	a {
 		margin-left: 50%;
@@ -128,7 +128,7 @@
 	}
 	.petition {
 		width: 100vw;
-		background-color: #ebeefb;
+		background-color: #fff;
 		font-family: 'Prompt', sans-serif;
 		display: flex;
 		/**height: 10vh;*/

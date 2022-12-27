@@ -12,7 +12,7 @@
 		<a href="/contact">DJ Hire</a> -->
 	</div>
 	<div class="full-width">
-		<a href = "mailto: mufaez@gmail.com">Website created by Mufaez © 2022</a>
+		<a href = "mailto: mufaez@gmail.com">Website created by Jay Cool © 2022</a>
 	</div>
 </footer>
 
