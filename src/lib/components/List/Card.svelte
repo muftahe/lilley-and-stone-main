@@ -30,7 +30,7 @@
 		margin-top: 50px;
 		background-color: white;
 		border: 2px solid black;
-		border-radius: 80px;
+		border-radius: 10px;
 		margin-left: 3%;
 		margin-right: 3%;
 		@media only screen and (min-width: 768px) { 

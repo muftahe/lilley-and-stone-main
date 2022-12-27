@@ -95,7 +95,7 @@
 	@media only screen and (min-width: 768px) {
   		.textimage {
     		margin-top: 20%;
-			background-color: white;
+			background-color: #ebeefb;
 		
 		
   		}
@@ -105,7 +105,7 @@
 		font-family: 'Prompt', sans-serif;
 	}
 	main {
-    background-color: #fff;
+    background-color: #ebeefb;
 }
 	a {
 		margin-left: 50%;
@@ -128,7 +128,7 @@
 	}
 	.petition {
 		width: 100vw;
-		background-color: white;
+		background-color: #ebeefb;
 		font-family: 'Prompt', sans-serif;
 		display: flex;
 		/**height: 10vh;*/
@@ -142,7 +142,7 @@
 			color: black;
 			font-family: 'Prompt', sans-serif;
 			background-color: #68d7f6;
-			border: 2px solid white;
+			
 			border-radius: 100%;
 			/**width: 50px;
 			height: 50px;*/
