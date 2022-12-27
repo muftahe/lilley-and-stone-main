@@ -174,6 +174,7 @@
 			margin-right: 10px;
 			display: inline-block;
 			margin-left: 85%;
+			margin-top: 1%;
 			cursor: pointer;
 			transition-property: opacity, filter;
 			transition-duration: 0.15s;
