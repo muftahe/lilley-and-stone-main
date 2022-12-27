@@ -2,6 +2,7 @@
 	import Socials from '../card/Socials.svelte';
 	import { fade, fly } from 'svelte/transition';
 	import { onMount } from 'svelte';
+	import Hero from '$lib/components/image/Hero.svelte';
 	import logo from '$lib/assets/tennis/logo.png'
 
 	interface Links {
@@ -47,7 +48,7 @@
 			</span>
 		</button>
 	<!--<p style = "text-align: center; margin-top: -2.5%;">SAVING LILY AND STONE</p>-->
-	<img src = "/src/lib/assets/tennis/logo.png" style = "height: 80px; display: block; margin-left: auto; margin-right: auto; margin-top: -2%;" >
+	<img src = "./src/lib/assets/tennis/logo.png" style = "height: 80px; display: block; margin-left: auto; margin-right: auto; margin-top: -2%;" >
 
 	</div>
 
@@ -57,7 +58,7 @@
 				<a on:click={() => (hamburgerActive = false)} href={link.slug}>{link.name}</a>
 			</li>
 		{/each}
-		<Socials
+		<!-- <Socials
 			socials={[
 				{
 					url: 'https://www.instagram.com/limitless.audio/',
@@ -80,8 +81,7 @@
 					platform: 'mail'
 				}
 			]}
-		/>
-	</ul>
+		/-->
 </nav>
 
 <style lang="scss">

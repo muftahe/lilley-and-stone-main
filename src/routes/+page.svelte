@@ -2,6 +2,7 @@
 
 <script lang="ts">
 	// components
+
 	import Hero from '$lib/components/image/Hero.svelte';
 	import CenterText from '$lib/components/text/CenterText.svelte';
 	import TextImage from '$lib/components/image/TextImage.svelte';
