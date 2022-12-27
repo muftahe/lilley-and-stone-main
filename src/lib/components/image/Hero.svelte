@@ -22,6 +22,7 @@
 	section {
 		position: relative;
 		height:60vh;
+		background-color: #fafafa;
 		img {
 			display: block;
 			position: absolute;
@@ -29,7 +30,7 @@
 			height: 150%;
 			object-fit: cover;
 			animation: fadeout 1s ease forwards;
-			background-color: #ebeefb;
+			background-color: white;
 		}
 		h1 {
 			/**font-family: 'Island Moments', cursive;*/

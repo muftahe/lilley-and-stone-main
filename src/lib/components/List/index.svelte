@@ -40,6 +40,7 @@
 	@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@500&display=swap');
 
 	section {
+	
 		h1 {
 			font-family: 'Prompt', sans-serif;
 			font-size: 40px;

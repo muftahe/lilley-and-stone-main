@@ -2,6 +2,7 @@
 	import Socials from '../card/Socials.svelte';
 	import { fade, fly } from 'svelte/transition';
 	import { onMount } from 'svelte';
+	import logo from '$lib/assets/tennis/logo.png'
 
 	interface Links {
 		name: string;
@@ -33,10 +34,9 @@
 
 <nav id="navbar">
 
-	<div>
-		<a href="/"> Saving Lilly & Stone </a>
-		
 
+		
+	<div>
 		<button
 			class={hamburgerActive ? 'hamburger hamburger--spin is-active' : 'hamburger hamburger--spin'}
 			type="button"
@@ -46,6 +46,9 @@
 				<span class="hamburger-inner" />
 			</span>
 		</button>
+	<!--<p style = "text-align: center; margin-top: -2.5%;">SAVING LILY AND STONE</p>-->
+	<img src = "/src/lib/assets/tennis/logo.png" style = "height: 80px; display: block; margin-left: auto; margin-right: auto; margin-top: -2%;" >
+
 	</div>
 
 	<ul class={hamburgerActive ? 'open' : 'closed'}>
@@ -82,6 +85,13 @@
 </nav>
 
 <style lang="scss">
+	p {
+		font-family: 'Prompt', sans-serif;
+		color: white;
+		font-size: 25px;
+		font-weight: 1000;
+	
+	}
 
 	nav {
 		width: 100vw;
@@ -96,22 +106,23 @@
 		z-index: 102;
 		div {
 			min-width: 100vw;
-			background-color: #ebeefb;
-			display: flex;
-			justify-content: space-between;
+			background-color: #68d7f6;
+			/**display: flex;*/
+			/**justify-content: space-between;*/
 			align-items: center;
+
 			z-index: 100;
 			height: 10vh;
 
 			a {
-				font-family: 'Island Moments', cursive;
+				font-family: 'Prompt', sans-serif;
 				align-items: center;
-				display: none;
+				
 				margin-left: 40%;
 			
 				font-size: 2em;
 				font-weight: 700;
-				color: black;
+				color: white;
 
 			}
 		}
@@ -151,7 +162,7 @@
 				a {
 					text-decoration: none;
 					font-size: 2em;
-					color: #2b2b2b;
+					color: black;
 				}
 			}
 		}
@@ -187,7 +198,7 @@
 		.hamburger.is-active .hamburger-inner,
 		.hamburger.is-active .hamburger-inner::before,
 		.hamburger.is-active .hamburger-inner::after {
-			background-color: #000;
+			background-color: black;
 		}
 
 		.hamburger-box {
@@ -208,7 +219,7 @@
 		.hamburger-inner::after {
 			width: 40px;
 			height: 4px;
-			background-color: #000;
+			background-color: white;
 			border-radius: 4px;
 			position: absolute;
 			transition-property: transform;
